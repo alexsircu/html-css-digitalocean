@@ -5,19 +5,45 @@
   display: inline-block;
   padding: 0 10px;
   font-size: 16px;
+  line-height: 60px;
+  padding-top: 5px;
+}
+.list_inline li a:not(.btn_blue) {
+  color: #1E3460;
 }
 .list_inline li a:hover {
   text-decoration: none;
+}
+
+.btn_blue {
+  color: #0570FF;
+  border-color: #0570FF;
+}
+.btn_blue:hover {
+  color: white;
+  background: #0570FF;
 }
 
 .header_top {
   width: 100%;
   height: 60px;
 }
-.header_top [class*="col-"] {
-  line-height: 60px;
-}
 
 #logo {
+  line-height: 60px;
+}
+#logo_icon {
   width: 180px;
+}
+#hamburger_menu {
+  line-height: 60px;
+
+}
+.hamburger_icon {
+  color: #3A8AFF;
+  font-size: 30px;
+  margin-top: 16px;
+}
+.header_top .btn_blue {
+  margin-bottom: 5px;
 }

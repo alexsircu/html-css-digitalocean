@@ -2,13 +2,14 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* classi definite per tutto il css */
 .list_inline {
   list-style: none;
 }
 .list_inline li {
   display: inline-block;
   padding: 0 10px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 60px;
   padding-top: 5px;
 }
@@ -20,6 +21,7 @@ body {
 }
 
 .btn_blue {
+  font-size: 12px;
   color: #0570FF;
   border-color: #0570FF;
 }
@@ -27,7 +29,8 @@ body {
   color: white;
   background: #0570FF;
 }
-
+/* /classi definite per tutto il css */
+/* parte superiore dell'header */
 .header_top {
   width: 100%;
   height: 60px;
@@ -39,19 +42,21 @@ body {
 #logo_icon {
   width: 180px;
 }
+
 #hamburger_menu {
   line-height: 60px;
-
 }
 .hamburger_icon {
   color: #3A8AFF;
   font-size: 30px;
   margin-top: 16px;
 }
+
 .header_top .btn_blue {
   margin-bottom: 5px;
 }
-
+/* /parte superiore dell'header */
+/* parte inferiore dell'header */
 .header_bottom {
   background-image: url("../img/sfondo-jumbo.svg");
 }
@@ -69,10 +74,13 @@ body {
   font-size: 22px;
   font-weight: 700;
 }
+
 .get_started {
   text-align: center;
   background: white;
   padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   border-radius: 5px;
 }
 .get_started h3 {
@@ -103,10 +111,45 @@ body {
   font-weight: 700;
   color: #626262;
 }
+.btn_google:hover {
+  background: white;
+}
 p#terms_service {
   color: #2E4069;
-  font-size: 14px;
+  font-size: 12px;
 }
 p#terms_service a {
   color: #0D73FF;
+}
+/* /parte inferiore dell'header */
+/* parte centrale della pagina */
+/* prima sezione della pagina */
+#businesses_trust {
+  text-align: center;
+  background: #F3F5F9;
+  padding-top:30px;
+}
+
+#businesses_trust h5 {
+  color: #8691A8;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+#businesses_trust p {
+  margin-top: 20px;
+}
+#businesses_trust p  a > i {
+  font-size: 10px;
+}
+
+
+
+
+/* parte media query della pagina */
+@media screen and (min-width: 768px) {
+  .get_started {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .list_inline {
   list-style: none;
 }
@@ -46,4 +50,63 @@
 }
 .header_top .btn_blue {
   margin-bottom: 5px;
+}
+
+.header_bottom {
+  background-image: url("../img/sfondo-jumbo.svg");
+}
+
+.header_bottom h1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.header_bottom p {
+  color: #7198FF;
+  font-size: 22px;
+  font-weight: 700;
+}
+.get_started {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.get_started h3 {
+  color: #031C4E;
+  font-weight: 700;
+}
+.get_started h4 {
+  color: #006AFF;
+  font-size: 22px;
+  font-weight: 700;
+}
+.get_started input {
+  width: 100%;
+}
+.btn_account {
+  width: 100%;
+  margin-bottom: 18px;
+  font-weight: 700;
+  color: white;
+  background: #579AFF;
+}
+.btn_account:hover {
+  color: white;
+  background: #1633ff;
+}
+.btn_google {
+  width: 100%;
+  font-weight: 700;
+  color: #626262;
+}
+p#terms_service {
+  color: #2E4069;
+  font-size: 14px;
+}
+p#terms_service a {
+  color: #0D73FF;
 }

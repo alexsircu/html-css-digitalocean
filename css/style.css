@@ -141,7 +141,7 @@ p#terms_service a {
 #businesses_trust p  a > i {
   font-size: 10px;
 }
-/* prima sezione della pagina */
+/* /prima sezione della pagina */
 /* seconda sezione della pagina */
 #deploy_scale {
   background: white;
@@ -184,7 +184,7 @@ p#terms_service a {
   margin-left: 20px;
   margin-bottom: 20px;
 }
-/* seconda sezione della pagina */
+/* /seconda sezione della pagina */
 /* terza sezione della pagina */
 #designed_dev {
   background: #F3F5F9;
@@ -227,7 +227,7 @@ p#terms_service a {
 #check_container {
   padding-bottom: 60px;
 }
-/* terza sezione della pagina */
+/* /terza sezione della pagina */
 /* quarta sezione della pagina */
 #features {
   background: white;
@@ -238,6 +238,7 @@ p#terms_service a {
   padding-top: 60px;
   padding-bottom: 20px;
 }
+
 .features_containers {
   padding-bottom: 30px;
 }
@@ -259,6 +260,55 @@ p#terms_service a {
 #features {
   padding-bottom: 60px;
 }
+/* /quarta sezione della pagina */
+/* quinta sezione della pagina */
+#service_customers {
+  background-image: linear-gradient(#00209b, #003FBB);
+  color: white;
+  padding-bottom: 60px;
+}
+#service_customers h2 {
+  font-weight: 700;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.list_inline_service {
+  list-style: none;
+  padding: 0 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.list_inline_service li {
+  display: inline-block;
+}
+.list_inline_service li:first-child {
+  width: 45px;
+}
+.list_inline_service li:nth-child(2) {
+  margin-left: 10%;
+  color: #9BB1E1;
+}
+.list_inline_service li:last-child {
+  float: right;
+}
+.list_inline_service li:last-child a {
+  color: #00a4ca;
+}
+#service_customers .col-xs-12 ul:last-child {
+  border: 0;
+  padding-bottom: 30px;
+}
+
+.list_inline_service:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* /quinta sezione della pagina */
+
+
+
 /* parte media query della pagina */
 @media screen and (max-width: 768px) {
   #deploy_title,

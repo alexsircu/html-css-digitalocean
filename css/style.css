@@ -266,46 +266,29 @@ p#terms_service a {
   background-image: linear-gradient(#00209b, #003FBB);
   color: white;
   padding-bottom: 60px;
+  font-size: 10px;
 }
 #service_customers h2 {
   font-weight: 700;
   padding-top: 80px;
   padding-bottom: 20px;
 }
-
-.list_inline_service {
-  list-style: none;
-  padding: 0 10px;
-  padding-bottom: 10px;
+.service_container_rows {
+  padding: 10px 0;
   border-bottom: 1px solid white;
 }
-.list_inline_service li {
-  display: inline-block;
+.service_container_rows_last {
+  border-bottom: 0;
+  margin-bottom: 20px;
 }
-.list_inline_service li:first-child {
-  width: 45px;
-}
-.list_inline_service li:nth-child(2) {
-  margin-left: 10%;
-  color: #9BB1E1;
-}
-.list_inline_service li:last-child {
-  float: right;
-}
-.list_inline_service li:last-child a {
-  color: #00a4ca;
-}
-#service_customers .col-xs-12 ul:last-child {
-  border: 0;
-  padding-bottom: 30px;
-}
-
-.list_inline_service:after {
-  content: "";
-  display: table;
-  clear: both;
+.service_container_rows a:hover {
+  text-decoration: none;
 }
 /* /quinta sezione della pagina */
+/* sesta sezione della pagina */
+
+
+/* /sesta sezione della pagina */
 
 
 
@@ -329,6 +312,12 @@ p#terms_service a {
     margin-top: 0;
     margin-left: 0;
   }
+
+  #service_customers .service_container_rows {
+    font-size: 14px;
+  }
+
+
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   #deploy_title {

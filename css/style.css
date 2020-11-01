@@ -189,6 +189,7 @@ p#terms_service a {
 #designed_dev {
   background: #F3F5F9;
   text-align: center;
+  padding-bottom: 60px;
 }
 #designed_dev h2 {
   color: #031C4E;
@@ -224,7 +225,7 @@ p#terms_service a {
   padding-top: 20px;
   padding-bottom: 100px;
 }
-#check_container {
+.check_container {
   padding-bottom: 60px;
 }
 /* /terza sezione della pagina */
@@ -286,10 +287,86 @@ p#terms_service a {
 }
 /* /quinta sezione della pagina */
 /* sesta sezione della pagina */
+#development_teams {
+  background: #F3F5F9;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  text-align: center;
+}
 
+#development_teams h2 {
+  color: #031C4E;
+  font-weight: 700;
+  padding-bottom: 80px;
+}
 
+#rockerbox {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  padding-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  background: white;
+}
+
+#rockerbox_image {
+  max-width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#rockerbox_description {
+  color: #5C6A88;
+  font-size: 16px;
+}
+
+#rick_paragraph {
+  color: #031C4E;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+#cofounder_paragraph {
+  margin-bottom: 30px;
+}
+
+#development_teams a {
+  color: #006AFF;
+}
+#development_teams a:hover {
+  text-decoration: none;
+}
+
+#check_container_dev_teams {
+  padding-top: 30px;
+}
 /* /sesta sezione della pagina */
+/* settima sezione della pagina */
+#get_started_now {
+  background: #0037B0;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  text-align: center;
+}
 
+#get_started_now h2 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.btn_create_account {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0570FF;
+  border-color: #0570FF;
+}
+.btn_create_account:hover {
+  color: #0570FF;
+  background: #cbd4e4;
+}
+/* /settima sezione della pagina */
 
 
 /* parte media query della pagina */

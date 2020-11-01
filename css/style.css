@@ -32,8 +32,13 @@ body {
 /* /classi definite per tutto il css */
 /* parte superiore dell'header */
 .header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 60px;
+  background: white;
+  z-index: 2;
 }
 
 #logo {
@@ -59,6 +64,7 @@ body {
 /* parte inferiore dell'header */
 .header_bottom {
   background-image: url("../img/sfondo-jumbo.svg");
+  margin-top: 60px;
 }
 
 .header_bottom h1 {

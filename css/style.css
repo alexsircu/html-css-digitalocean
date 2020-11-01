@@ -361,14 +361,59 @@ p#terms_service a {
   font-weight: 700;
   color: #0570FF;
   border-color: #0570FF;
+  border-radius: 8px;
 }
 .btn_create_account:hover {
   color: #0570FF;
   background: #cbd4e4;
 }
 /* /settima sezione della pagina */
+/* parte finale della pagina */
+#page_footer {
+  background: #031C4E;
+  padding: 60px 0;
+}
 
+#copyright_footer {
+  color: #9BA3B5;
+  font-weight: 700;
+  padding-top: 10px;
+  margin: 0;
+}
+#made_in_footer{
+  color: #576585;
+  font-weight: 700;
+}
+.list_inline_footer {
+  list-style: none;
+  padding: 0;
+}
+.list_inline_footer li {
+  display: inline-block;
+  color: #7A859D;
+  padding: 0 5px;
+  font-size: 24px;
+}
 
+#page_footer h4 {
+  color: white;
+  font-weight: 700;
+}
+.list_column_footer {
+  list-style: none;
+  padding: 0;
+}
+.list_column_footer li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.list_column_footer li a {
+  color: #9BA3B5;
+}
+.list_column_footer li a:hover {
+  text-decoration: none;
+}
+/* /parte finale della pagina */
 /* parte media query della pagina */
 @media screen and (max-width: 768px) {
   #deploy_title,
@@ -376,6 +421,7 @@ p#terms_service a {
     padding: 0 10px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .get_started {
     width: 80%;
@@ -393,9 +439,8 @@ p#terms_service a {
   #service_customers .service_container_rows {
     font-size: 14px;
   }
-
-
 }
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
   #deploy_title {
     padding-top: 20px;
@@ -407,8 +452,8 @@ p#terms_service a {
   #designed_dev_img {
     height: 250px;
   }
-
 }
+
 @media screen and (min-width: 993px) {
   #deploy_title {
     padding-top: 30px;
@@ -424,9 +469,8 @@ p#terms_service a {
   .features_containers {
     padding-top: 40px;
   }
-
-
 }
+
 @media screen and (min-width: 1200PX) {
   #designed_dev_img {
     height: 350px;
